@@ -1,0 +1,23 @@
+.home-container{
+    position: static;
+    display: inline-block;
+    width: 100vw;
+    margin: auto;
+    position: relative;
+    top: 6px;
+}
+.home-h1{
+    text-align: center;
+}
+.home-link{
+    text-decoration: none;
+    color: brown;
+}
+.home-img{
+}
+.home-link img{
+    width: 40vw;
+    height: 35vh;
+    display: block;
+    margin: auto;
+}
