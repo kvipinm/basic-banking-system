@@ -1,23 +1,26 @@
 .transfer-form{
-    margin: 1px 20em;
-    padding: 3em;
+    width: 70vw;
+    display: block;
+    padding: 2em 0em;
+    margin: auto;
     background-color: burlywood;
     border-radius: 2em;
 }
 .form-input{
     font-size: 1em;
-    display: block;
-    width: 30vw;
     padding: 1em;
+    width: 40%;
+    display: block;
     margin: 1em auto;
     border-radius: 2em;
 }
 .form-submit{
     font-size: 1em;
-    background-color: burlywood;
-    display: block;
-    width: 33vw;
+    background-color: violet;
     padding: 1em;
     margin: 1em auto;
+    display: block;
+    width: 40%;
     border-radius: 1em;
+    cursor: pointer;
 }

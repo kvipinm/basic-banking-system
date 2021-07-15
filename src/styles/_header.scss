@@ -1,7 +1,5 @@
 .header{
-    width: 100vw;
     display: flex;
-    // justify-content: space-evenly;
     background-color: rgb(219, 89, 219);
     position: sticky;
     top: 0px;
@@ -11,20 +9,40 @@
     display:flex;
     margin: 2px 0vw 2px 2vw;
 }
+.header-content{
+    display: flex;
+}
 .img-logo{
     height: 4em;
     margin: 6px 0px;
 }
 .text-logo{
     font-size: 2.5em;
-    margin: auto 10px;
+    margin: auto 1em;
 }
 .header-link{
     color: brown;
-    margin: auto 20px;
+    margin: auto 2em;
     text-decoration: none;
     margin: auto 5vw;
 }
 .active{
     color: whitesmoke;
+}
+@media screen and (max-width: 620px) {
+    .header{
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(219, 89, 219);
+        z-index: 100;
+    }
+    .header-link{
+        color: brown;
+        margin: auto 1em;
+        text-decoration: none;
+        margin: auto 1vw;
+    }
+    .text-logo{
+        font-size: 2em;
+    }
 }

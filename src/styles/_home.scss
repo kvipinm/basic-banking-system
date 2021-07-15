@@ -1,10 +1,15 @@
 .home-container{
+    background-color: burlywood;
     position: static;
-    display: inline-block;
-    width: 100vw;
-    margin: auto;
-    position: relative;
+    display: flex;
+    padding: 3em;
+    height: 70vh;
+    width: 90vw;
+    margin: 1em auto;
     top: 6px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3em;
 }
 .home-h1{
     text-align: center;
@@ -14,10 +19,25 @@
     color: brown;
 }
 .home-img{
+    width: 100%;
+    border-radius: 30px;
 }
 .home-link img{
-    width: 40vw;
-    height: 35vh;
-    display: block;
-    margin: auto;
+    width: 30vw;
+    height: 40vh;
+    margin: 1em;
+}
+@media screen and (max-width: 620px) {
+    .home-container{
+        margin: auto 0px;
+        height: auto;
+        width: auto;
+        flex-direction: column;
+        border-radius: 0em;
+    }
+    .home-link img{
+        width: 80vw;
+        height: auto;
+        margin: 1em;
+    }
 }

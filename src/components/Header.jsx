@@ -12,12 +12,14 @@ export default function Header() {
                 <img src={logo} alt="Bank" className='img-logo' />
                 <h1 className="text-logo">Spark's Basic Bank</h1>
             </div>
-            <NavLink to='/' className='header-link' exact={true}>
-                <h1>Home</h1>
-            </NavLink>
-            <NavLink to='/about' className='header-link'>
-                <h1>About</h1>
-            </NavLink>
+            <div className="header-content">
+                <NavLink to='/' className='header-link' exact={true}>
+                    <h1>Home</h1>
+                </NavLink>
+                <NavLink to='/about' className='header-link'>
+                    <h1>About</h1>
+                </NavLink>
+            </div>
         </header>
     )
 }
