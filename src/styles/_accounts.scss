@@ -1,13 +1,18 @@
 .accounts-container{
+    overflow-x: auto;
     display: block;
-    width: 50vw;
-    height: 60vh;
+    width: 90vw;
+    height: auto;
     margin: 5vh auto;
     padding: 3em;
     background-color: burlywood;
+    border: 2px solid purple;
     border-radius: 2em;
 }
+.accounts-container table{
+    margin: auto;
+}
 .accounts{
-    padding: 1em 5em;
-
+    padding: 1em 2em;
+    border: 2px solid purple;
 }

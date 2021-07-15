@@ -3,6 +3,7 @@
     display: block;
     padding: 2em 0em;
     margin: auto;
+    border: 2px solid purple;
     background-color: burlywood;
     border-radius: 2em;
 }
@@ -11,6 +12,7 @@
     padding: 1em;
     width: 40%;
     display: block;
+    border: 2px solid purple;
     margin: 1em auto;
     border-radius: 2em;
 }
@@ -20,7 +22,20 @@
     padding: 1em;
     margin: 1em auto;
     display: block;
+    border: 2px solid purple;
     width: 40%;
     border-radius: 1em;
     cursor: pointer;
+}
+@media screen and (max-width: 620px){
+    .transfer-form{
+        width: auto;
+        border-radius: 0em;
+    }
+    .form-input{
+        width: 60%;
+    }
+    .form-submit{
+        width: 64%;
+    }
 }
