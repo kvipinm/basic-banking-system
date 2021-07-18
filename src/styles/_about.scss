@@ -1,0 +1,23 @@
+.about-container{
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    width: 70vw;
+    margin: 20px auto;
+    align-items: center;
+    justify-content: center;
+    background-color: burlywood;
+    border: 2px solid purple;
+    border-radius: 30px;
+}
+.about-icons{
+    margin: 5vh 5vw;
+}
+@media screen and (max-width: 620px) {
+    .about-container{
+        height: 75vh;
+        width: auto;
+        margin: auto;
+        border-radius: 0em;
+    }
+}

@@ -1,0 +1,47 @@
+.header{
+    display: flex;
+    background-color: rgb(219, 89, 219);
+    z-index: 100;
+}
+.header-logo{
+    display:flex;
+    margin: 2px 0vw 2px 2vw;
+}
+.header-content{
+    display: flex;
+}
+.img-logo{
+    height: 4em;
+    margin: 6px 0px;
+}
+.text-logo{
+    font-size: 2.5em;
+    margin: auto 1em;
+}
+.header-link{
+    color: brown;
+    margin: auto 2em;
+    text-decoration: none;
+    margin: auto 5vw;
+}
+.active{
+    color: whitesmoke;
+}
+@media screen and (max-width: 620px) {
+    .header{
+        flex-direction: column;
+    }
+    .header-content{
+        position: sticky;
+        top: 0px;
+    }
+    .header-link{
+        color: brown;
+        margin: auto 1em;
+        text-decoration: none;
+        margin: auto 1vw;
+    }
+    .text-logo{
+        font-size: 2em;
+    }
+}
