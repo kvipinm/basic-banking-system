@@ -3,7 +3,7 @@ import React from 'react'
 export default function NoMatch() {
     return (
         <div>
-            This is for no match.
+            <h1>404 Not found!.</h1>
         </div>
     )
 }
